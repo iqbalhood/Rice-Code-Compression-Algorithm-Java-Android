@@ -1,4 +1,4 @@
-# Rice-Code-Compression-Java-Android-
+# Rice Compression Algorithm Implementation on Android Apps
 Rice Compression Algorithm Implementation Code In Text Files On  Java and Android Platform.
 
 Rice Code algorithm is an algorithm created by Robert F. Rice, which shows the use of a subset of Golomb Coding derivatives to generate a simple code that allows suboptimal of the prefix code itself. The Rice Code algorithm is used in an adaptive coding scheme, which can refer only to a subset of Golomb Coding derivatives.
