@@ -9,7 +9,7 @@ In this Project I want to implement Rice Code Algorithm to compress text file on
 <p align="center">
   <img src="ss/rcc.png" height="500" alt="" />
   <img src="ss/screeencompletedialogcompress.png" height="500" alt="" />
-  <img src="ss/compression_rsult.png.png" height="500" alt="" />
+  <img src="ss/compression_rsult.png" height="500" alt="" />
 </p>
 
 
