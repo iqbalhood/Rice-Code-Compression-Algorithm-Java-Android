@@ -1,20 +1,14 @@
-package com.dita.ricecode;
+package com.iqbalhood.ricecode;
 
-import android.content.Context;
 import android.os.Environment;
-import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.util.Arrays;
-import java.util.Scanner;
 
 
 /**

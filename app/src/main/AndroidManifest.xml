@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dita.ricecode">
+    package="com.iqbalhood.ricecode">
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -13,17 +13,17 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.iqbalhood.ricecode.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Compress"></activity>
-        <activity android:name=".Dashboard" android:label="Rice Code Compression"></activity>
-        <activity android:name=".Decompress"></activity>
-        <activity android:name=".Result"></activity>
-        <activity android:name=".About"     android:label="About"></activity>
+        <activity android:name="com.iqbalhood.ricecode.Compress"></activity>
+        <activity android:name="com.iqbalhood.ricecode.Dashboard" android:label="Rice Code Compression"></activity>
+        <activity android:name="com.iqbalhood.ricecode.Decompress"></activity>
+        <activity android:name="com.iqbalhood.ricecode.Result"></activity>
+        <activity android:name="com.iqbalhood.ricecode.About" android:label="About"></activity>
     </application>
 </manifest>

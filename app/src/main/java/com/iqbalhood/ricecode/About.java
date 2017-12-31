@@ -1,4 +1,4 @@
-package com.dita.ricecode;
+package com.iqbalhood.ricecode;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,29 +7,33 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by Dita Ananda Yulaz on 5/17/2016.
+ * Created by IQBAL on 5/23/2016.
  */
-public class Result  extends AppCompatActivity {
-
-    Button OK;
-
+public class About extends AppCompatActivity {
+    Button buttonHome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.result);
+        setContentView(R.layout.about);
 
-        OK = (Button)findViewById(R.id.btnOK);
+        buttonHome = (Button)findViewById(R.id.buttonHome);
 
-        OK.setOnClickListener(new View.OnClickListener() {
+        buttonHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent k = new Intent(Result.this, Dashboard.class);
+
+
+                Intent k = new Intent(About.this, Dashboard.class);
                 k.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(k);
+
+
+
+
             }
         });
 
+
     }
 }
-

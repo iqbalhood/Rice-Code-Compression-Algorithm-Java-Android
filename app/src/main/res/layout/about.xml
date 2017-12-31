@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Parent linear layout with vertical orientation -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -7,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/judul"
         android:textStyle="bold"
@@ -16,48 +15,14 @@
         android:padding="20dp"/>
 
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dwita Ananda Yulaz"
+        android:text="Develop By Iqbalhood"
         android:textStyle="bold"
         android:layout_weight="0"
         android:textAlignment="center"
-        android:textAllCaps="true"
         android:padding="20dp"/>
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="141421084"
-        android:textStyle="bold"
-        android:layout_weight="0"
-        android:textAlignment="center"
-        android:padding="10dp"/>
-
-    <ImageView
-
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/logo"
-        android:layout_weight="1"
-        android:text="Home"/>
-
-
-
-
-
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/fakultas"
-        android:textStyle="bold"
-        android:layout_weight="0"
-        android:textSize="10sp"
-        android:textAlignment="center"
-        android:padding="10dp"
-        android:textAllCaps="true"
-        />
 
     <Button
         android:id="@+id/buttonHome"

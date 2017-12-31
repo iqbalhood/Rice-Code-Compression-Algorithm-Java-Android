@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.dita.ricecode"
+        applicationId "com.iqbalhood.ricecode"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1

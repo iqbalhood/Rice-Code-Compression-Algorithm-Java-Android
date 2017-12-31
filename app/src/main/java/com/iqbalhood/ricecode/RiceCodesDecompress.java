@@ -1,26 +1,18 @@
-package com.dita.ricecode;
+package com.iqbalhood.ricecode;
 
 import android.annotation.TargetApi;
-import android.content.Context;
 import android.os.Build;
 import android.os.Environment;
-import android.os.SystemClock;
-import android.util.Log;
-import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.util.*;
-import java.util.StringTokenizer;
 
 /**
  * Created by IQBAL on 5/23/2016.

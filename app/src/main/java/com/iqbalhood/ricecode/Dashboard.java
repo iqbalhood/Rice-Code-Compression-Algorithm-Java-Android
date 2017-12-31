@@ -1,4 +1,4 @@
-package com.dita.ricecode;
+package com.iqbalhood.ricecode;
 
 import android.content.Intent;
 import android.os.Bundle;
